@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <title>Kebijakan Privasi - SmartNet DNS</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f4f7fb;
+      color: #243247;
+      font-family: Arial, sans-serif;
+      line-height: 1.75;
+    }
+    header {
+      background: #123b68;
+      color: white;
+      padding: 42px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 8px; }
+    header p { margin: 0; opacity: .9; }
+    main {
+      max-width: 850px;
+      margin: 28px auto;
+      padding: 35px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 3px 18px rgba(0,0,0,.06);
+    }
+    h2 {
+      color: #123b68;
+      margin-top: 32px;
+      font-size: 21px;
+    }
+    a { color: #1265a8; }
+    footer {
+      padding: 25px;
+      text-align: center;
+      color: #64748b;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      main { margin: 12px; padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Kebijakan Privasi</h1>
+  <p>SmartNet DNS</p>
+</header>
+
+<main>
+  <p><strong>Terakhir diperbarui:</strong> 13 Oktober 2026</p>
+
+  <p>
+    Kebijakan Privasi ini menjelaskan bagaimana aplikasi
+    SmartNet DNS ("Aplikasi") memproses, menggunakan,
+    dan melindungi informasi ketika pengguna menggunakan
+    fitur perlindungan DNS dan pemblokiran domain iklan.
+  </p>
+
+  <h2>1. Tentang SmartNet DNS</h2>
+  <p>
+    SmartNet DNS adalah aplikasi Android yang menyediakan
+    perlindungan berbasis DNS. Aplikasi menggunakan
+    Android VpnService untuk membuat antarmuka VPN lokal
+    dan mengelola permintaan DNS sesuai pengaturan pengguna.
+  </p>
+  <p>
+    Fungsi utamanya adalah memblokir domain yang terkait
+    dengan iklan atau pelacakan, serta meneruskan permintaan
+    DNS yang diizinkan ke penyedia DNS pilihan pengguna.
+    Aplikasi ini bukan layanan VPN umum yang dirancang
+    untuk mengganti negara atau lokasi IP publik pengguna.
+  </p>
+
+  <h2>2. Pemrosesan Permintaan DNS</h2>
+  <p>
+    Ketika perlindungan diaktifkan, Aplikasi memproses
+    permintaan DNS untuk menentukan apakah suatu domain
+    perlu diblokir atau diteruskan.
+  </p>
+  <p>
+    Permintaan DNS yang diizinkan dapat diteruskan ke
+    penyedia DNS pihak ketiga, termasuk AdGuard DNS,
+    Cloudflare DNS, atau Google DNS, sesuai pilihan
+    pengguna dan konfigurasi aplikasi.
+  </p>
+  <p>
+    Penyedia DNS tersebut dapat menerima informasi yang
+    diperlukan untuk menyelesaikan permintaan DNS,
+    termasuk nama domain yang diminta dan informasi
+    jaringan terkait. Pemrosesan oleh penyedia tersebut
+    tunduk pada kebijakan privasi masing-masing.
+  </p>
+
+  <h2>3. Log Proteksi dan Riwayat Aktivitas</h2>
+  <p>
+    Aplikasi menyediakan informasi aktivitas perlindungan,
+    seperti domain yang diblokir, waktu kejadian,
+    jumlah pemblokiran, dan riwayat sesi perlindungan.
+  </p>
+  <p>
+    Berdasarkan implementasi aplikasi, informasi tersebut
+    disimpan dalam database lokal pada perangkat untuk
+    menampilkan statistik dan riwayat kepada pengguna.
+  </p>
+  <p>
+    Fitur VPN tidak dirancang untuk mengunggah riwayat
+    domain yang diblokir ke server yang dioperasikan
+    oleh pengembang SmartNet DNS.
+  </p>
+
+  <h2>4. Izin VPN dan Akses Jaringan</h2>
+  <p>
+    Aplikasi meminta persetujuan Android VpnService
+    untuk menjalankan perlindungan DNS lokal.
+    Persetujuan tersebut diberikan melalui dialog
+    sistem Android.
+  </p>
+  <p>
+    Aplikasi juga memerlukan akses jaringan untuk
+    berkomunikasi dengan penyedia DNS dan memuat
+    layanan yang diperlukan.
+  </p>
+
+  <h2>5. Iklan Google AdMob</h2>
+  <p>
+    SmartNet DNS menggunakan Google AdMob untuk
+    menampilkan iklan di dalam aplikasi, termasuk
+    iklan interstitial pada alur penggunaan tertentu.
+  </p>
+  <p>
+    Google dan mitra periklanannya dapat memproses
+    informasi seperti pengenal perangkat, pengenal
+    periklanan jika tersedia, alamat IP, interaksi
+    iklan, dan data diagnostik, sesuai konfigurasi SDK,
+    pilihan persetujuan pengguna, serta kebijakan Google.
+  </p>
+  <p>
+    Aplikasi menggunakan mekanisme Google User Messaging
+    Platform (UMP) untuk meminta persetujuan terkait
+    periklanan apabila diperlukan.
+  </p>
+  <p>
+    Informasi lebih lanjut:
+    <a href="https://policies.google.com/privacy">
+      Kebijakan Privasi Google
+    </a>
+    dan
+    <a href="https://support.google.com/admob/answer/6128543">
+      Kebijakan dan panduan privasi AdMob
+    </a>.
+  </p>
+
+  <h2>6. Tujuan Penggunaan Data</h2>
+  <p>
+    Pemrosesan informasi oleh Aplikasi digunakan untuk
+    menjalankan perlindungan DNS, menentukan domain yang
+    diblokir, menampilkan statistik proteksi, menyimpan
+    riwayat lokal, dan mendukung penayangan iklan.
+  </p>
+
+  <h2>7. Layanan Pihak Ketiga</h2>
+  <p>
+    Aplikasi dapat berkomunikasi dengan penyedia DNS
+    eksternal dan layanan Google AdMob.
+    Masing-masing penyedia bertanggung jawab atas
+    pemrosesan data yang mereka lakukan sesuai
+    kebijakan privasi dan ketentuan layanan mereka.
+  </p>
+
+  <h2>8. Penyimpanan dan Penghapusan Data</h2>
+  <p>
+    Riwayat proteksi yang disimpan secara lokal dapat
+    tetap berada pada perangkat selama data aplikasi
+    belum dihapus. Pengguna dapat menghapus data lokal
+    melalui pengaturan aplikasi Android atau dengan
+    menghapus aplikasi, sesuai perilaku penyimpanan
+    dan pencadangan perangkat.
+  </p>
+  <p>
+    Penghapusan data lokal tidak otomatis menghapus
+    informasi yang telah diproses secara terpisah
+    oleh penyedia DNS atau Google.
+  </p>
+
+  <h2>9. Keamanan</h2>
+  <p>
+    Kami berupaya membatasi pemrosesan informasi
+    pada kebutuhan fungsional aplikasi. Namun,
+    tidak ada metode penyimpanan atau komunikasi
+    elektronik yang dapat dijamin sepenuhnya aman.
+  </p>
+  <p>
+    Pengguna perlu mengetahui bahwa permintaan DNS
+    yang diteruskan menggunakan UDP port 53 biasa
+    tidak memperoleh perlindungan enkripsi DNS-over-HTTPS
+    atau DNS-over-TLS dari koneksi tersebut.
+  </p>
+
+  <h2>10. Privasi Anak</h2>
+  <p>
+    SmartNet DNS tidak secara khusus dirancang
+    untuk anak-anak. Penggunaan aplikasi dan
+    penayangan iklan tetap tunduk pada kebijakan
+    platform serta persyaratan hukum yang berlaku.
+  </p>
+
+  <h2>11. Perubahan Kebijakan</h2>
+  <p>
+    Kebijakan Privasi ini dapat diperbarui apabila
+    fitur aplikasi, penyedia layanan, atau praktik
+    pemrosesan data berubah. Versi terbaru akan
+    diterbitkan pada halaman ini beserta tanggal
+    pembaruannya.
+  </p>
+
+  <h2>12. Kontak Pengembang</h2>
+  <p>
+    Jika memiliki pertanyaan mengenai privasi
+    atau pemrosesan informasi oleh SmartNet DNS,
+    silakan hubungi:
+  </p>
+  <p>
+    <strong>Email:</strong>
+    <a href="mailto:soegeng.purwono@gmail.com">
+      soegeng.purwono@gmail.com
+    </a>
+  </p>
+</main>
+
+<footer>
+  &copy; 2026 SmartNet DNS. All rights reserved.
+</footer>
+</body>
+</html>
